@@ -1,0 +1,31 @@
+body {
+  background-color: #f3f1f5;
+  margin: 0;
+  padding: 0;
+}
+
+.contenedor {
+  display: grid;
+  grid-template-columns: minmax(150px, 300px) 200px 100px;
+  grid-template-rows: auto repeat(2, 150px);
+  place-content: center;
+  gap: 20px;
+  height: 80vh;
+  margin: 0 30px;
+}
+
+.item {
+  display: grid;
+  background-color: #a267ac;
+  place-content: center;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 2rem;
+}
+
+.contenedor-2 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  margin: 0 100px 100px 100px;
+  gap: 20px;
+}
