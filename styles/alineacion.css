@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.contenedor {
+  display: grid;
+  grid-template-columns: repeat(2, 100px);
+  grid-template-rows: repeat(3, 100px);
+  grid-auto-flow: column;
+  place-content: center;
+  gap: 20px;
+  background-color: #c78af0;
+  height: 100vh;
+  margin: 0;
+}
+
+.item {
+  display: grid;
+  place-content: end;
+  background-color: #9550da;
+  border-radius: 10px;
+}
+
+.item-num {
+  display: grid;
+  place-items: center;
+  background-color: #3cbcfa;
+  border-radius: 5px;
+  color: #fff;
+  width: 30px;
+  height: 40px;
+}
