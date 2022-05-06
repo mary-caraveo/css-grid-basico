@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.contenedor {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-template-rows: repeat(3, 100px);
+  background-color: #fdebf7;
+  grid-auto-flow: column;
+  place-content: center;
+  grid-gap: 15px;
+  height: 100vh;
+}
+
+.item {
+  display: grid;
+  background-color: #9571dc;
+  border-radius: 10px;
+  place-content: end;
+}
+
+span {
+  background-color: #4bcff0;
+  border-radius: 6px;
+  color: white;
+  padding: 6px 10px;
+  font-size: 1.5rem;
+}
