@@ -1,0 +1,23 @@
+.container {
+  background-color: #f0d9ff;
+  padding: 20% 20%;
+}
+
+.contenedor {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  text-align: center;
+}
+
+.contenedor-2 {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  margin-top: 100px;
+  text-align: center;
+}
+
+.item {
+  background-color: #bb7fec;
+  border: 5px solid #9254c8;
+  font-size: 2rem;
+}
