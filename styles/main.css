@@ -89,6 +89,11 @@ main {
   object-fit: cover;
 }
 
+.dishes-item:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
 .dishes-item__big {
   grid-area: 1 / 1 / 3 / 3;
 }
@@ -115,10 +120,21 @@ main {
 }
 
 .menu-grid-item {
-  border: 4px solid #d7dbdb;
+  background-color: white;
+  border: 4px solid #36ae7c;
   border-top-left-radius: 60px;
+  border-top-right-radius: 10px;
   border-bottom-right-radius: 60px;
+  border-bottom-left-radius: 10px;
+  box-shadow: 10px -16px teal;
+
   padding: 12px;
+}
+
+.menu-grid-item:hover {
+  transform: scale(1.1);
+  box-shadow: inset 1em 1em 1em 3rem #ab8fe7;
+  cursor: pointer;
 }
 
 .menu-grid-item img {
